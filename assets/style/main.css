@@ -1,0 +1,54 @@
+nav{
+    background-color: #f48636;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+     margin:0 20px 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+nav ul li a:hover{
+    background-color: brown;
+    color:black;
+    
+}
+.hero-image{
+    background-image:url("https://cdn.pixabay.com/photo/2019/03/08/20/18/childrens-hospital-4043119_1280.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    margin-top: 20px;
+}
+.hero-text{
+   text-align: center; 
+   position: relative;
+   top: 50%;
+   font-size: 40px;
+   font-weight: bold;
+   color:rgb(17, 9, 2);
+}
+
+footer{
+    text-align: center;
+    background-color: bisque;
+    color: black;
+    margin-top: 40 px;
+    position:fixed;
+    bottom: 0;
+    left:0;
+    width:100%;
+    padding: 1rem;
+}
