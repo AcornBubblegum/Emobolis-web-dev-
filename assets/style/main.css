@@ -43,17 +43,21 @@ nav ul li a:hover{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height:1.8;
     background-color: bisque;
+    margin:0 20px 0 20px;
+     border-radius: 15px;
+     padding: 10px 20px;
 }
 footer{
     text-align: center;
     background-color: rgb(249, 195, 128);
     color: black;
     margin-top: 40 px;
-    position:fixed;
+   position: fixed;
     bottom: 0;
     left:0;
     width:100%;
-    padding: 1rem;
+    padding: 1px;
+    
 }
 /* Start of About Page Styles */
 main{
@@ -111,3 +115,38 @@ main{
     width:100%;
     height:450px;
  }
+/* Table styles */
+.table-section{
+    max-width: 800px;
+    padding: 10px;
+    margin: 20px;
+
+}
+table{
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+thead th{
+    background: brown;
+    padding: 6px;
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 254, 254);
+}
+tbody td{
+    background-color: rgb(253, 253, 253);
+    border-bottom: 2px solid burlywood;
+     text-align: center;
+}
+/* Gallery image styling */
+.gallery{
+    display: flex;
+    
+}
+.gallery-item img{
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    padding:5px;
+    width:370px;
+    height: auto;
+}
