@@ -150,3 +150,23 @@ tbody td{
     width:370px;
     height: auto;
 }
+
+/* bootstrap styling */
+/* Styling 1 ; the carousel styling- resizing the carousel */
+#carouselExampleCaptions{
+    max-width: 900px;
+    margin:0 auto;    
+    /* to center the carousel */
+}
+.carousel-item img {
+  height: 500px;        /* set uniform height */
+  object-fit: cover;     /* ensures image fills space without distortion */
+}
+.ccarousel-caption d-none d-md-block {
+  bottom: 40px; 
+}
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
